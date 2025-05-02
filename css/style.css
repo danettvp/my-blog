@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+line-height: 1.6;
+padding: 1rem;
+background-color: #f9f9f9;
+color: #333;
+}
+
+/* Header */
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 1rem 0;
+}
+
+.logo {
+height: 40px;
+}
+
+.hamburger {
+height: 30px;
+cursor: pointer;
+}
+
+/* Navigation */
+nav ul {
+list-style: none;
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+padding-top: 1rem;
+}
+
+nav a {
+text-decoration: none;
+color: pink;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* Main content */
+main {
+max-width: 700px;
+margin: 2rem auto;
+background-color: #fff;
+padding: 1.5rem;
+border-radius: 6px;
+}
+
+h1 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+h2 {
+margin-top: 1.5rem;
+color: #444;
+}
+
+/* Footer */
+footer {
+margin-top: 3rem;
+padding: 1rem;
+border-top: 1px solid #ccc;
+text-align: center;
+font-size: 0.9rem;
+color: #777;
+}
+
+footer ul {
+list-style: none;
+padding: 0.5rem 0;
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+
+footer img {
+height: 30px;
+margin-bottom: 0.5rem;
+}
